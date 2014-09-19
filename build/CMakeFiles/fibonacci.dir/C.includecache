@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/charu/work/fib/fib.c
+stdio.h
+/home/charu/work/fib/stdio.h
+stdlib.h
+/home/charu/work/fib/stdlib.h
+
